@@ -1,0 +1,1366 @@
+{
+  "timestamp_utc": "2026-10-27T13:03:44Z",
+  "account": {
+    "handle": "std0 // POLYMARKET + KALSHI BOT",
+    "wallet": "0xDF79...3DC0",
+    "deposit_usd": 3700.0,
+    "all_time_pnl_usd": 206341.0,
+    "post_reported_pnl_usd": 207170.0,
+    "roi_pct": 5577.0,
+    "trades_per_hr": 150.2,
+    "win_rate_pct": 52.0,
+    "usdc_at_80plus_pct": 65.5,
+    "taker_share_pct": 62.0
+  },
+  "connector": {
+    "execution_mode": "PAPER_SIM",
+    "polymarket": {
+      "connected_live": false,
+      "public_feed": "CONNECTED (Gamma + CLOB)",
+      "wallet": "0xDF79...3DC0",
+      "api_key_masked": "PAPER_MODE"
+    },
+    "kalshi": {
+      "connected_live": false,
+      "public_feed": "CONNECTED (Trade API v2)",
+      "key_id_masked": "PAPER_MODE"
+    }
+  },
+  "spot_feeds": {
+    "prices": {
+      "BTC": 80144.935,
+      "ETH": 2330.185,
+      "SOL": 100.67
+    },
+    "reference_s0": {
+      "BTC": 80324.62,
+      "ETH": 2333.9,
+      "SOL": 100.85
+    },
+    "metrics": {
+      "BTC": {
+        "spot": 80144.93,
+        "s0": 80324.62,
+        "dist_usd": -179.68,
+        "dist_pct": -0.2237,
+        "tau_sec": 676,
+        "sigma_5m": 0.0012,
+        "reach_usd": 144.37,
+        "momentum_bps": -0.85,
+        "accel_bps": 11.09
+      },
+      "ETH": {
+        "spot": 2330.18,
+        "s0": 2333.9,
+        "dist_usd": -3.72,
+        "dist_pct": -0.1592,
+        "tau_sec": 676,
+        "sigma_5m": 0.0012,
+        "reach_usd": 4.2,
+        "momentum_bps": -19.58,
+        "accel_bps": -26.48
+      },
+      "SOL": {
+        "spot": 100.67,
+        "s0": 100.85,
+        "dist_usd": -0.18,
+        "dist_pct": -0.1785,
+        "tau_sec": 676,
+        "sigma_5m": 0.001234,
+        "reach_usd": 0.19,
+        "momentum_bps": -15.85,
+        "accel_bps": -30.72
+      }
+    },
+    "candles_5m": {
+      "BTC": [
+        {
+          "t": 1793097900,
+          "low": 79775.04,
+          "high": 80008.79,
+          "open": 79775.05,
+          "close": 79860.12,
+          "volume": 26.55436193
+        },
+        {
+          "t": 1793098200,
+          "low": 79797.67,
+          "high": 79894.66,
+          "open": 79864.93,
+          "close": 79805.18,
+          "volume": 16.7243072
+        },
+        {
+          "t": 1793098500,
+          "low": 79757.88,
+          "high": 79857.65,
+          "open": 79807.17,
+          "close": 79817.25,
+          "volume": 19.6928085
+        },
+        {
+          "t": 1793098800,
+          "low": 79817.25,
+          "high": 79990.97,
+          "open": 79817.25,
+          "close": 79979.15,
+          "volume": 9.24752719
+        },
+        {
+          "t": 1793099100,
+          "low": 79890.62,
+          "high": 80006.5,
+          "open": 79979.16,
+          "close": 79900.24,
+          "volume": 11.61524806
+        },
+        {
+          "t": 1793099400,
+          "low": 79780.0,
+          "high": 79913.28,
+          "open": 79900.24,
+          "close": 79780.0,
+          "volume": 4.5000639
+        },
+        {
+          "t": 1793099700,
+          "low": 79703.1,
+          "high": 79783.25,
+          "open": 79783.25,
+          "close": 79757.59,
+          "volume": 8.44127811
+        },
+        {
+          "t": 1793100000,
+          "low": 79749.45,
+          "high": 79803.91,
+          "open": 79760.66,
+          "close": 79757.41,
+          "volume": 6.79324823
+        },
+        {
+          "t": 1793100300,
+          "low": 79723.77,
+          "high": 79767.92,
+          "open": 79760.07,
+          "close": 79755.37,
+          "volume": 5.31881659
+        },
+        {
+          "t": 1793100600,
+          "low": 79755.37,
+          "high": 79841.02,
+          "open": 79755.37,
+          "close": 79798.6,
+          "volume": 5.6830288
+        },
+        {
+          "t": 1793100900,
+          "low": 79750.8,
+          "high": 79807.98,
+          "open": 79798.59,
+          "close": 79786.37,
+          "volume": 1.2485638
+        },
+        {
+          "t": 1793101200,
+          "low": 79714.59,
+          "high": 79786.37,
+          "open": 79786.37,
+          "close": 79737.11,
+          "volume": 5.05824639
+        },
+        {
+          "t": 1793101500,
+          "low": 79731.48,
+          "high": 79782.85,
+          "open": 79737.11,
+          "close": 79752.74,
+          "volume": 4.57818226
+        },
+        {
+          "t": 1793101800,
+          "low": 79711.68,
+          "high": 79782.61,
+          "open": 79754.0,
+          "close": 79768.47,
+          "volume": 11.46790862
+        },
+        {
+          "t": 1793102100,
+          "low": 79747.71,
+          "high": 79788.2,
+          "open": 79765.4,
+          "close": 79760.4,
+          "volume": 4.8500303
+        },
+        {
+          "t": 1793102400,
+          "low": 79692.27,
+          "high": 79775.67,
+          "open": 79760.39,
+          "close": 79730.0,
+          "volume": 6.0394519
+        },
+        {
+          "t": 1793102700,
+          "low": 79713.98,
+          "high": 79744.63,
+          "open": 79730.01,
+          "close": 79744.63,
+          "volume": 3.86064875
+        },
+        {
+          "t": 1793103000,
+          "low": 79739.45,
+          "high": 79771.77,
+          "open": 79744.63,
+          "close": 79771.77,
+          "volume": 4.70961971
+        },
+        {
+          "t": 1793103300,
+          "low": 79774.5,
+          "high": 79921.34,
+          "open": 79776.28,
+          "close": 79917.62,
+          "volume": 7.39472
+        },
+        {
+          "t": 1793103600,
+          "low": 79899.15,
+          "high": 79974.24,
+          "open": 79917.63,
+          "close": 79959.2,
+          "volume": 3.98265584
+        },
+        {
+          "t": 1793103900,
+          "low": 79954.07,
+          "high": 80110.18,
+          "open": 79959.2,
+          "close": 80108.16,
+          "volume": 24.42591849
+        },
+        {
+          "t": 1793104200,
+          "low": 80036.88,
+          "high": 80147.39,
+          "open": 80108.16,
+          "close": 80115.64,
+          "volume": 22.2007461
+        },
+        {
+          "t": 1793104500,
+          "low": 80068.91,
+          "high": 80198.1,
+          "open": 80115.63,
+          "close": 80145.19,
+          "volume": 26.01462363
+        },
+        {
+          "t": 1793104800,
+          "low": 80125.06,
+          "high": 80237.51,
+          "open": 80145.2,
+          "close": 80202.75,
+          "volume": 50.72532591
+        },
+        {
+          "t": 1793105100,
+          "low": 80173.25,
+          "high": 80270.14,
+          "open": 80202.75,
+          "close": 80267.0,
+          "volume": 47.75907589
+        },
+        {
+          "t": 1793105400,
+          "low": 80264.99,
+          "high": 80363.72,
+          "open": 80266.99,
+          "close": 80324.62,
+          "volume": 82.91408064
+        },
+        {
+          "t": 1793105700,
+          "low": 80219.17,
+          "high": 80349.31,
+          "open": 80324.62,
+          "close": 80228.8,
+          "volume": 15.3320279
+        },
+        {
+          "t": 1793106000,
+          "low": 80206.0,
+          "high": 80266.39,
+          "open": 80228.81,
+          "close": 80222.0,
+          "volume": 6.2552483
+        }
+      ],
+      "ETH": [
+        {
+          "t": 1793097600,
+          "low": 2305.27,
+          "high": 2312.08,
+          "open": 2309.4,
+          "close": 2311.4,
+          "volume": 394.00403363
+        },
+        {
+          "t": 1793097900,
+          "low": 2311.8,
+          "high": 2321.44,
+          "open": 2311.8,
+          "close": 2313.69,
+          "volume": 981.6133386
+        },
+        {
+          "t": 1793098200,
+          "low": 2311.07,
+          "high": 2314.63,
+          "open": 2313.9,
+          "close": 2311.07,
+          "volume": 180.39533673
+        },
+        {
+          "t": 1793098500,
+          "low": 2308.73,
+          "high": 2313.27,
+          "open": 2311.39,
+          "close": 2312.04,
+          "volume": 300.88951757
+        },
+        {
+          "t": 1793098800,
+          "low": 2312.09,
+          "high": 2318.51,
+          "open": 2312.09,
+          "close": 2317.04,
+          "volume": 104.37908899
+        },
+        {
+          "t": 1793099100,
+          "low": 2315.59,
+          "high": 2318.12,
+          "open": 2317.34,
+          "close": 2316.07,
+          "volume": 74.57963539
+        },
+        {
+          "t": 1793099400,
+          "low": 2311.2,
+          "high": 2316.42,
+          "open": 2316.08,
+          "close": 2311.41,
+          "volume": 64.9631338
+        },
+        {
+          "t": 1793099700,
+          "low": 2308.36,
+          "high": 2311.53,
+          "open": 2311.14,
+          "close": 2310.48,
+          "volume": 141.68904648
+        },
+        {
+          "t": 1793100000,
+          "low": 2310.31,
+          "high": 2313.38,
+          "open": 2310.49,
+          "close": 2310.58,
+          "volume": 94.43050449
+        },
+        {
+          "t": 1793100300,
+          "low": 2309.29,
+          "high": 2311.22,
+          "open": 2310.39,
+          "close": 2310.51,
+          "volume": 61.30706336
+        },
+        {
+          "t": 1793100600,
+          "low": 2310.64,
+          "high": 2313.51,
+          "open": 2310.64,
+          "close": 2312.31,
+          "volume": 78.00884261
+        },
+        {
+          "t": 1793100900,
+          "low": 2310.24,
+          "high": 2312.7,
+          "open": 2312.24,
+          "close": 2312.23,
+          "volume": 33.16316046
+        },
+        {
+          "t": 1793101200,
+          "low": 2309.85,
+          "high": 2312.65,
+          "open": 2312.27,
+          "close": 2309.86,
+          "volume": 31.08490821
+        },
+        {
+          "t": 1793101500,
+          "low": 2309.4,
+          "high": 2312.42,
+          "open": 2309.85,
+          "close": 2311.52,
+          "volume": 29.67106981
+        },
+        {
+          "t": 1793101800,
+          "low": 2309.63,
+          "high": 2313.19,
+          "open": 2311.77,
+          "close": 2311.27,
+          "volume": 74.92216415
+        },
+        {
+          "t": 1793102100,
+          "low": 2311.39,
+          "high": 2313.26,
+          "open": 2311.65,
+          "close": 2311.67,
+          "volume": 51.49835027
+        },
+        {
+          "t": 1793102400,
+          "low": 2308.66,
+          "high": 2312.24,
+          "open": 2311.41,
+          "close": 2309.88,
+          "volume": 186.37764335
+        },
+        {
+          "t": 1793102700,
+          "low": 2308.32,
+          "high": 2310.46,
+          "open": 2309.97,
+          "close": 2310.3,
+          "volume": 99.84910417
+        },
+        {
+          "t": 1793103000,
+          "low": 2309.06,
+          "high": 2311.65,
+          "open": 2310.43,
+          "close": 2311.19,
+          "volume": 95.60983357
+        },
+        {
+          "t": 1793103300,
+          "low": 2311.18,
+          "high": 2316.89,
+          "open": 2311.19,
+          "close": 2316.89,
+          "volume": 218.73768943
+        },
+        {
+          "t": 1793103600,
+          "low": 2315.99,
+          "high": 2319.18,
+          "open": 2316.89,
+          "close": 2318.47,
+          "volume": 158.97059047
+        },
+        {
+          "t": 1793103900,
+          "low": 2318.41,
+          "high": 2324.9,
+          "open": 2318.42,
+          "close": 2323.57,
+          "volume": 646.02660749
+        },
+        {
+          "t": 1793104200,
+          "low": 2320.46,
+          "high": 2324.16,
+          "open": 2323.22,
+          "close": 2323.37,
+          "volume": 274.5658048
+        },
+        {
+          "t": 1793104500,
+          "low": 2321.98,
+          "high": 2331.3,
+          "open": 2323.36,
+          "close": 2328.22,
+          "volume": 409.66225411
+        },
+        {
+          "t": 1793104800,
+          "low": 2327.11,
+          "high": 2331.5,
+          "open": 2328.16,
+          "close": 2330.25,
+          "volume": 240.115669
+        },
+        {
+          "t": 1793105100,
+          "low": 2329.23,
+          "high": 2337.28,
+          "open": 2330.23,
+          "close": 2334.34,
+          "volume": 410.95475293
+        },
+        {
+          "t": 1793105400,
+          "low": 2333.03,
+          "high": 2337.62,
+          "open": 2333.9,
+          "close": 2335.95,
+          "volume": 511.94603824
+        },
+        {
+          "t": 1793105700,
+          "low": 2330.65,
+          "high": 2337.23,
+          "open": 2335.52,
+          "close": 2331.38,
+          "volume": 208.22158969
+        }
+      ],
+      "SOL": [
+        {
+          "t": 1793097600,
+          "low": 99.72,
+          "high": 99.98,
+          "open": 99.86,
+          "close": 99.98,
+          "volume": 860.64456347
+        },
+        {
+          "t": 1793097900,
+          "low": 99.97,
+          "high": 100.43,
+          "open": 99.97,
+          "close": 100.09,
+          "volume": 4415.21665617
+        },
+        {
+          "t": 1793098200,
+          "low": 99.93,
+          "high": 100.14,
+          "open": 100.1,
+          "close": 99.93,
+          "volume": 1414.58434983
+        },
+        {
+          "t": 1793098500,
+          "low": 99.86,
+          "high": 100.04,
+          "open": 99.94,
+          "close": 99.95,
+          "volume": 2405.12648179
+        },
+        {
+          "t": 1793098800,
+          "low": 99.98,
+          "high": 100.29,
+          "open": 99.98,
+          "close": 100.22,
+          "volume": 1003.7976488
+        },
+        {
+          "t": 1793099100,
+          "low": 100.12,
+          "high": 100.27,
+          "open": 100.22,
+          "close": 100.15,
+          "volume": 610.24691014
+        },
+        {
+          "t": 1793099400,
+          "low": 99.96,
+          "high": 100.18,
+          "open": 100.16,
+          "close": 99.97,
+          "volume": 159.5634755
+        },
+        {
+          "t": 1793099700,
+          "low": 99.84,
+          "high": 99.97,
+          "open": 99.95,
+          "close": 99.94,
+          "volume": 233.49337653
+        },
+        {
+          "t": 1793100000,
+          "low": 99.85,
+          "high": 99.98,
+          "open": 99.94,
+          "close": 99.87,
+          "volume": 456.14779531
+        },
+        {
+          "t": 1793100300,
+          "low": 99.8,
+          "high": 99.94,
+          "open": 99.86,
+          "close": 99.94,
+          "volume": 286.16255928
+        },
+        {
+          "t": 1793100600,
+          "low": 99.91,
+          "high": 100.05,
+          "open": 99.93,
+          "close": 100.0,
+          "volume": 121.07127695
+        },
+        {
+          "t": 1793100900,
+          "low": 99.91,
+          "high": 100.05,
+          "open": 99.97,
+          "close": 100.03,
+          "volume": 149.27415631
+        },
+        {
+          "t": 1793101200,
+          "low": 99.92,
+          "high": 100.02,
+          "open": 99.98,
+          "close": 99.98,
+          "volume": 377.16470644
+        },
+        {
+          "t": 1793101500,
+          "low": 99.97,
+          "high": 100.15,
+          "open": 99.98,
+          "close": 100.08,
+          "volume": 561.40824788
+        },
+        {
+          "t": 1793101800,
+          "low": 99.99,
+          "high": 100.15,
+          "open": 100.09,
+          "close": 100.05,
+          "volume": 325.63281539
+        },
+        {
+          "t": 1793102100,
+          "low": 99.91,
+          "high": 100.08,
+          "open": 100.04,
+          "close": 99.91,
+          "volume": 613.1851947
+        },
+        {
+          "t": 1793102400,
+          "low": 99.78,
+          "high": 99.97,
+          "open": 99.97,
+          "close": 99.83,
+          "volume": 456.30266113
+        },
+        {
+          "t": 1793102700,
+          "low": 99.78,
+          "high": 99.89,
+          "open": 99.84,
+          "close": 99.86,
+          "volume": 1268.4244713
+        },
+        {
+          "t": 1793103000,
+          "low": 99.81,
+          "high": 99.92,
+          "open": 99.87,
+          "close": 99.91,
+          "volume": 477.31929663
+        },
+        {
+          "t": 1793103300,
+          "low": 99.87,
+          "high": 100.15,
+          "open": 99.93,
+          "close": 100.15,
+          "volume": 507.22743639
+        },
+        {
+          "t": 1793103600,
+          "low": 100.1,
+          "high": 100.28,
+          "open": 100.14,
+          "close": 100.24,
+          "volume": 1111.13233618
+        },
+        {
+          "t": 1793103900,
+          "low": 100.2,
+          "high": 100.4,
+          "open": 100.26,
+          "close": 100.37,
+          "volume": 922.9846692
+        },
+        {
+          "t": 1793104200,
+          "low": 100.26,
+          "high": 100.49,
+          "open": 100.37,
+          "close": 100.45,
+          "volume": 796.83109474
+        },
+        {
+          "t": 1793104500,
+          "low": 100.37,
+          "high": 100.74,
+          "open": 100.45,
+          "close": 100.68,
+          "volume": 1166.52677852
+        },
+        {
+          "t": 1793104800,
+          "low": 100.61,
+          "high": 100.73,
+          "open": 100.67,
+          "close": 100.68,
+          "volume": 1897.17642843
+        },
+        {
+          "t": 1793105100,
+          "low": 100.6,
+          "high": 100.92,
+          "open": 100.68,
+          "close": 100.85,
+          "volume": 16318.28951716
+        },
+        {
+          "t": 1793105400,
+          "low": 100.78,
+          "high": 101.04,
+          "open": 100.85,
+          "close": 101.0,
+          "volume": 3390.94007198
+        },
+        {
+          "t": 1793105700,
+          "low": 100.81,
+          "high": 101.07,
+          "open": 101.0,
+          "close": 100.84,
+          "volume": 3006.27194015
+        }
+      ]
+    }
+  },
+  "model": {
+    "p_model_up": 0.1995,
+    "p_model_down": 0.8005,
+    "book_up_ask": 0.833,
+    "book_down_ask": 0.146,
+    "raw_edge_up_cents": -63.35,
+    "raw_edge_down_cents": 65.45,
+    "net_edge_up_cents": -66.05,
+    "net_edge_down_cents": 62.75,
+    "best_side": "DOWN",
+    "best_raw_edge_cents": 65.45,
+    "hurdle_cents": 2.7,
+    "sigma_p": 0.0588,
+    "width_95_pp": 23.1,
+    "p_above_gate_pct": 100.0,
+    "edge_half_life_s": 6.0,
+    "left_after_1s_pct": 89.1,
+    "left_after_3s_pct": 70.7,
+    "exec_mode": "TAKER"
+  },
+  "portfolio": {
+    "up_shares": 144.0,
+    "down_shares": 100.0,
+    "up_vwap": 0.512,
+    "down_vwap": 0.467,
+    "complete_sets": 100.0,
+    "pair_cost_cents": 97.9,
+    "gap_to_dollar_cents": 2.1,
+    "locked_arb_profit_usd": 2.1,
+    "residual_side": "UP",
+    "residual_shares": 44.0,
+    "residual_ev_usd": -13.75,
+    "total_expected_window_pnl_usd": -11.65,
+    "all_time_pnl_usd": 206341.0,
+    "session_pnl_usd": 428.84,
+    "sequence": [
+      {
+        "step": 1,
+        "side": "UP",
+        "action": "ENTRY UP",
+        "shares": 64.0,
+        "price": 0.495,
+        "usd": 31.68,
+        "edge_c": 6.4,
+        "venue": "POLYMARKET",
+        "ts": "10:53:12"
+      },
+      {
+        "step": 2,
+        "side": "DOWN",
+        "action": "HEDGE DOWN",
+        "shares": 52.0,
+        "price": 0.47,
+        "usd": 24.44,
+        "edge_c": 5.8,
+        "venue": "POLYMARKET",
+        "ts": "10:54:09"
+      },
+      {
+        "step": 3,
+        "side": "UP",
+        "action": "ADD UP",
+        "shares": 80.0,
+        "price": 0.525,
+        "usd": 42.0,
+        "edge_c": 7.1,
+        "venue": "POLYMARKET",
+        "ts": "10:55:02"
+      },
+      {
+        "step": 4,
+        "side": "DOWN",
+        "action": "HEDGE DOWN",
+        "shares": 48.0,
+        "price": 0.464,
+        "usd": 22.27,
+        "edge_c": 6.2,
+        "venue": "KALSHI",
+        "ts": "10:55:44"
+      }
+    ]
+  },
+  "live_markets": {
+    "polymarket": [
+      {
+        "venue": "POLYMARKET",
+        "id": "2749382",
+        "slug": "natoeu-troops-fighting-in-ukraine-by-december-31-2026",
+        "question": "NATO/EU troops fighting in Ukraine by December 31, 2026?",
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "up_ask": 0.045,
+        "down_ask": 0.955,
+        "pair_sum": 1.0,
+        "volume": 159381.674712,
+        "liquidity": 23980.9153,
+        "token_ids": [
+          "83822435716035660497147241422577858668594129234727507087266598622219382324322",
+          "17799682251044587344253612662468317771332927166743838473163687802268935485073"
+        ]
+      },
+      {
+        "venue": "POLYMARKET",
+        "id": "2261102",
+        "slug": "ukraine-election-called-by-december-31-2026-924",
+        "question": "Ukraine election called by December 31, 2026?",
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "up_ask": 0.046,
+        "down_ask": 0.954,
+        "pair_sum": 1.0,
+        "volume": 106428.258552,
+        "liquidity": 16818.52626,
+        "token_ids": [
+          "108022836882070634894978103447460059415631393810246745281341648986501895644031",
+          "50035578024412312502715156279765769139689669299163153792052060268176088979005"
+        ]
+      },
+      {
+        "venue": "POLYMARKET",
+        "id": "2749367",
+        "slug": "will-russia-invade-a-nato-country-by-december-31-2026-793",
+        "question": "Will Russia invade a NATO country by December 31, 2026?",
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "up_ask": 0.045,
+        "down_ask": 0.955,
+        "pair_sum": 1.0,
+        "volume": 458774.26285700005,
+        "liquidity": 66110.8907,
+        "token_ids": [
+          "23530003628454702082168799022501270830098851824883932803252713402311376262723",
+          "17575251723632910699589265433682994835860884178986826320137675884859225059838"
+        ]
+      },
+      {
+        "venue": "POLYMARKET",
+        "id": "1068702",
+        "slug": "trump-eliminates-capital-gains-tax-on-crypto-before-2027",
+        "question": "Trump eliminates capital gains tax on crypto before 2027?",
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "up_ask": 0.032,
+        "down_ask": 0.968,
+        "pair_sum": 1.0,
+        "volume": 33921.94717199999,
+        "liquidity": 733.07951,
+        "token_ids": [
+          "38577956202894813911522423295759441226459985692799781876715891336671282746369",
+          "31239779091556707685216681559343622450417987997527657281659332570836878668226"
+        ]
+      },
+      {
+        "venue": "POLYMARKET",
+        "id": "677273",
+        "slug": "israel-and-syria-normalize-relations-by-december-31-2026-166",
+        "question": "Israel and Syria normalize relations by December 31, 2026?",
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "up_ask": 0.05,
+        "down_ask": 0.95,
+        "pair_sum": 1.0,
+        "volume": 689664.327378,
+        "liquidity": 21416.7213,
+        "token_ids": [
+          "106383854378569763040038727158261681740086130201198677161578651498744312589763",
+          "10553917527871259014867933253903838134228152744058156727275127563897745134791"
+        ]
+      },
+      {
+        "venue": "POLYMARKET",
+        "id": "2100106",
+        "slug": "will-hyperliquid-perform-an-airdrop-by-december-31-2027-117",
+        "question": "Will Hyperliquid perform an airdrop by December 31, 2027?",
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "up_ask": 0.425,
+        "down_ask": 0.575,
+        "pair_sum": 1.0,
+        "volume": 6633.089303,
+        "liquidity": 1372.3968,
+        "token_ids": [
+          "35599907049186982879557420969598528789434547136942253652554709047485665633870",
+          "18054759644013870900749170809345467324611742242067616964612696305379357034954"
+        ]
+      },
+      {
+        "venue": "POLYMARKET",
+        "id": "2244109",
+        "slug": "will-hyperliquid-perform-an-airdrop-by-june-30-2027",
+        "question": "Will Hyperliquid perform an airdrop by June 30, 2027?",
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "up_ask": 0.235,
+        "down_ask": 0.765,
+        "pair_sum": 1.0,
+        "volume": 2738.2319,
+        "liquidity": 382.9225,
+        "token_ids": [
+          "18110789428391406482230306080653613096309178214543987995456679527322864131310",
+          "62313236991955111601391854345293627475130543547194366725001724474611291151185"
+        ]
+      },
+      {
+        "venue": "POLYMARKET",
+        "id": "2119266",
+        "slug": "will-megaeth-perform-an-airdrop-by-december-31-2026",
+        "question": "Will MegaETH perform an airdrop by December 31, 2026?",
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "up_ask": 0.08,
+        "down_ask": 0.92,
+        "pair_sum": 1.0,
+        "volume": 12907.329756000001,
+        "liquidity": 2216.5123,
+        "token_ids": [
+          "4073964439546781679844222219197458984323215148120046536055850319869173017640",
+          "57444375933620596258067193404376499933911971337929532732080247805234422208790"
+        ]
+      },
+      {
+        "venue": "POLYMARKET",
+        "id": "559651",
+        "slug": "xi-jinping-out-before-2027",
+        "question": "Xi Jinping out before 2027?",
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "up_ask": 0.038,
+        "down_ask": 0.962,
+        "pair_sum": 1.0,
+        "volume": 16211911.511162,
+        "liquidity": 306056.55279,
+        "token_ids": [
+          "32338220190071351435772801779725302244575775216413325951443816017994629993401",
+          "25659310674993675562345759665114759892400026242514633218387667107987341231962"
+        ]
+      },
+      {
+        "venue": "POLYMARKET",
+        "id": "559652",
+        "slug": "will-gavin-newsom-win-the-2028-democratic-presidential-nomination-568",
+        "question": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "up_ask": 0.166,
+        "down_ask": 0.835,
+        "pair_sum": 1.0,
+        "volume": 28095208.836216006,
+        "liquidity": 391105.36125,
+        "token_ids": [
+          "54533043819946592547517511176940999955633860128497669742211153063842200957669",
+          "87854174148074652060467921081181402357467303721471806610111179101805869578687"
+        ]
+      },
+      {
+        "venue": "POLYMARKET",
+        "id": "559653",
+        "slug": "will-alexandria-ocasio-cortez-win-the-2028-democratic-presidential-nomination-653",
+        "question": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "up_ask": 0.161,
+        "down_ask": 0.84,
+        "pair_sum": 1.0,
+        "volume": 15599204.326633003,
+        "liquidity": 320714.34315,
+        "token_ids": [
+          "107064985435494333113391038470401719113272800530429703182710416066774068907304",
+          "65176072261324737856085688071627118509549293922582857186996392180609764586527"
+        ]
+      },
+      {
+        "venue": "POLYMARKET",
+        "id": "561229",
+        "slug": "will-jd-vance-win-the-2028-us-presidential-election",
+        "question": "Will JD Vance win the 2028 US Presidential Election?",
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "up_ask": 0.193,
+        "down_ask": 0.807,
+        "pair_sum": 1.0,
+        "volume": 17225473.585564,
+        "liquidity": 440190.88082,
+        "token_ids": [
+          "16040015440196279900485035793550429453516625694844857319147506590755961451627",
+          "94476829201604408463453426454480212459887267917122244941405244686637914508323"
+        ]
+      },
+      {
+        "venue": "POLYMARKET",
+        "id": "561230",
+        "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
+        "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "up_ask": 0.118,
+        "down_ask": 0.881,
+        "pair_sum": 1.0,
+        "volume": 18778843.998828,
+        "liquidity": 326788.06504,
+        "token_ids": [
+          "98250445447699368679516529207365255018790721464590833209064266254238063117329",
+          "18823838997443878656879952590502524526556504037944392973476854588563571859850"
+        ]
+      },
+      {
+        "venue": "POLYMARKET",
+        "id": "561974",
+        "slug": "will-jd-vance-win-the-2028-republican-presidential-nomination",
+        "question": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "up_ask": 0.383,
+        "down_ask": 0.618,
+        "pair_sum": 1.0,
+        "volume": 16313374.790710002,
+        "liquidity": 339174.51173,
+        "token_ids": [
+          "40081275558852222228080198821361202017557872256707631666334039001378518619916",
+          "78633590736077251574794513664747155551297291244492840448622550955320930591622"
+        ]
+      }
+    ],
+    "kalshi": [
+      {
+        "venue": "KALSHI",
+        "id": "KXMVECROSSCATEGORY-S20266U2ZC6MFWT4OAZHB-Y3OS4A2KD",
+        "slug": "kxmvecrosscategory-s20266u2zc6mfwt4oazhb-y3os4a2kd",
+        "question": "yes North Texas,yes James Madison,yes Michigan,yes Louisville,yes Tulane,yes Notre Dame",
+        "outcomes": [
+          "YES (UP)",
+          "NO (DOWN)"
+        ],
+        "up_ask": 0.52,
+        "down_ask": 0.49,
+        "up_bid": 0.0,
+        "pair_sum": 1.01,
+        "volume": 0.0,
+        "liquidity": 0.0
+      },
+      {
+        "venue": "KALSHI",
+        "id": "KXMVECROSSCATEGORY-S2026FHEMPPPWSNFTAW4H-YIGNXEQJB",
+        "slug": "kxmvecrosscategory-s2026fhempppwsnftaw4h-yignxeqjb",
+        "question": "yes Tristan Schoolkate,yes Hubert Hurkacz,yes Abdullaev / Kvasov,yes Djonov / Tepmahc,yes De Carvalho / van Wyk,yes Funk / Maute,yes James Beaven,yes Miles Jones,yes Roan Jones,yes Daniil Varaksa,yes Leonardo Rossi,yes Meshcheryakova / Wildgruber,yes Shkutova / Struvay,yes Noemi Maines,yes Isabella Angelina Abendroth,yes Milena Maria Ciocan,yes Elizara Yaneva,yes Marina Bassols Ribera,yes Xinran Sun",
+        "outcomes": [
+          "YES (UP)",
+          "NO (DOWN)"
+        ],
+        "up_ask": 0.52,
+        "down_ask": 0.49,
+        "up_bid": 0.0,
+        "pair_sum": 1.01,
+        "volume": 0.0,
+        "liquidity": 0.0
+      },
+      {
+        "venue": "KALSHI",
+        "id": "KXMVECROSSCATEGORY-S202634J7VE5D5VGPCHIU-PDUEIUGNQ",
+        "slug": "kxmvecrosscategory-s202634j7ve5d5vgpchiu-pdueiugnq",
+        "question": "yes William Contreras: 2+,yes Philadelphia,yes Green Bay,yes Philadelphia,yes Vegas",
+        "outcomes": [
+          "YES (UP)",
+          "NO (DOWN)"
+        ],
+        "up_ask": 0.52,
+        "down_ask": 0.49,
+        "up_bid": 0.0,
+        "pair_sum": 1.01,
+        "volume": 0.0,
+        "liquidity": 0.0
+      },
+      {
+        "venue": "KALSHI",
+        "id": "KXMVECROSSCATEGORY-S20266YR4X5HWAGBEZKA7-F2YUJBSAB",
+        "slug": "kxmvecrosscategory-s20266yr4x5hwagbezka7-f2yujbsab",
+        "question": "yes M\u00b4gladbach,yes Mainz,yes Dortmund,yes Augsburg,yes Elversberg,yes Bradford,yes Arsenal,yes Burdet / Car,yes Funk / Maute,yes James Beaven,yes Miles Jones,yes Daniil Varaksa,yes Roma,yes Lazio,yes Como",
+        "outcomes": [
+          "YES (UP)",
+          "NO (DOWN)"
+        ],
+        "up_ask": 0.52,
+        "down_ask": 0.49,
+        "up_bid": 0.0,
+        "pair_sum": 1.01,
+        "volume": 0.0,
+        "liquidity": 0.0
+      },
+      {
+        "venue": "KALSHI",
+        "id": "KXMVECROSSCATEGORY-S2026FU42XYUSKO35HE2G-QGMURUCMX",
+        "slug": "kxmvecrosscategory-s2026fu42xyusko35he2g-qgmurucmx",
+        "question": "yes Tom Paris,yes Tristan Schoolkate,yes Tommy Paul,yes James Beaven,yes Etienne Donnet,yes Miles Jones,yes Roan Jones,yes Leonardo Rossi,yes Liam Hignett,yes Noemi Maines,yes Vlada Mincheva,yes Isabella Angelina Abendroth,yes Matilde Jorge,yes Joanna Strzelecka,yes Lola Radivojevic,yes Milena Maria Ciocan,yes Elizara Yaneva,yes Marina Bassols Ribera,yes Xinran Sun",
+        "outcomes": [
+          "YES (UP)",
+          "NO (DOWN)"
+        ],
+        "up_ask": 0.52,
+        "down_ask": 0.49,
+        "up_bid": 0.0,
+        "pair_sum": 1.01,
+        "volume": 0.0,
+        "liquidity": 0.0
+      },
+      {
+        "venue": "KALSHI",
+        "id": "KXMVECROSSCATEGORY-S2026RY3S65NMF7FSSB72-YD5YMILJ3",
+        "slug": "kxmvecrosscategory-s2026ry3s65nmf7fssb72-yd5ymilj3",
+        "question": "no Tie,no Tie,yes Augsburg,no Tie,yes Leipzig,no Tie,yes Arsenal,yes Over 1.5 goals scored,yes Over 1.5 goals scored,no Tie,yes Roma,yes Lazio,yes Como,yes Over 1.5 goals scored,yes Over 1.5 goals scored",
+        "outcomes": [
+          "YES (UP)",
+          "NO (DOWN)"
+        ],
+        "up_ask": 0.52,
+        "down_ask": 0.49,
+        "up_bid": 0.0,
+        "pair_sum": 1.01,
+        "volume": 0.0,
+        "liquidity": 0.0
+      },
+      {
+        "venue": "KALSHI",
+        "id": "KXMVECROSSCATEGORY-S2026DLRQ5HBJ5OZTB2ED-5BBLULOQS",
+        "slug": "kxmvecrosscategory-s2026dlrq5hbj5oztb2ed-5bbluloqs",
+        "question": "yes Over 1.5 goals scored,no Fulham,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Real Madrid,no Espanyol,yes Barcelona,no Malaga,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,no Le Havre,no Venezia,no Cagliari,yes Roma,yes Lazio,no Bologna,no Venezia,yes Roma,yes Over 1.5 goals scored",
+        "outcomes": [
+          "YES (UP)",
+          "NO (DOWN)"
+        ],
+        "up_ask": 0.52,
+        "down_ask": 0.49,
+        "up_bid": 0.0,
+        "pair_sum": 1.01,
+        "volume": 0.0,
+        "liquidity": 0.0
+      },
+      {
+        "venue": "KALSHI",
+        "id": "KXMVECROSSCATEGORY-S2026QD7CUVIZBCX5SN3S-7LJDVLLQA",
+        "slug": "kxmvecrosscategory-s2026qd7cuvizbcx5sn3s-7ljdvllqa",
+        "question": "yes Al Hilal,yes Jayson Tatum: 4+,yes Cade Cunningham: 4+,yes De'Aaron Fox: 4+,yes Victor Wembanyama: 2+,yes Boston,yes Los Angeles L,yes San Antonio,yes Jayson Tatum: 20+,yes Paul George: 10+,yes Cade Cunningham: 15+,yes Jalen Brunson: 15+,yes Karl-Anthony Towns: 10+,yes Austin Reaves: 15+,yes Damian Lillard: 15+,yes Zach LaVine: 15+,yes Victor Wembanyama: 20+,yes Roma,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored",
+        "outcomes": [
+          "YES (UP)",
+          "NO (DOWN)"
+        ],
+        "up_ask": 0.52,
+        "down_ask": 0.49,
+        "up_bid": 0.0,
+        "pair_sum": 1.01,
+        "volume": 0.0,
+        "liquidity": 0.0
+      },
+      {
+        "venue": "KALSHI",
+        "id": "KXMVECROSSCATEGORY-S2026UXWGZ6I6XXJ2AK7U-QUKCZKVIJ",
+        "slug": "kxmvecrosscategory-s2026uxwgz6i6xxj2ak7u-qukczkvij",
+        "question": "yes Liam Broady,yes Coco Bosman,yes Matilde Jorge,yes Iida Heinonen",
+        "outcomes": [
+          "YES (UP)",
+          "NO (DOWN)"
+        ],
+        "up_ask": 0.52,
+        "down_ask": 0.49,
+        "up_bid": 0.0,
+        "pair_sum": 1.01,
+        "volume": 0.0,
+        "liquidity": 0.0
+      },
+      {
+        "venue": "KALSHI",
+        "id": "KXMVECROSSCATEGORY-S2026JNRY6TY57AJBXBQJ-IWISXLEE7",
+        "slug": "kxmvecrosscategory-s2026jnry6ty57ajbxbqj-iwisxlee7",
+        "question": "no Tie,no Tie,yes M\u00b4gladbach,no Tie,yes Augsburg,no Tie,no Tie,yes Leipzig,yes Elversberg,yes Arsenal,no Over 3.5 goals scored,no Over 4.5 goals scored,yes Como,no Roma wins by more than 2.5 goals,no Over 4.5 goals scored,no Over 3.5 goals scored,no Over 4.5 goals scored",
+        "outcomes": [
+          "YES (UP)",
+          "NO (DOWN)"
+        ],
+        "up_ask": 0.52,
+        "down_ask": 0.49,
+        "up_bid": 0.0,
+        "pair_sum": 1.01,
+        "volume": 0.0,
+        "liquidity": 0.0
+      },
+      {
+        "venue": "KALSHI",
+        "id": "KXMVECROSSCATEGORY-S2026FK66TJ7Y24L53VQ4-NZBF4GMHJ",
+        "slug": "kxmvecrosscategory-s2026fk66tj7y24l53vq4-nzbf4gmhj",
+        "question": "yes Luka Don\u010di\u0107: 3+,yes Julius Randle: 20+",
+        "outcomes": [
+          "YES (UP)",
+          "NO (DOWN)"
+        ],
+        "up_ask": 0.52,
+        "down_ask": 0.49,
+        "up_bid": 0.0,
+        "pair_sum": 1.01,
+        "volume": 0.0,
+        "liquidity": 0.0
+      },
+      {
+        "venue": "KALSHI",
+        "id": "KXMVECROSSCATEGORY-S2026AJ6VEAHF355FLK3M-E6UEYQEMS",
+        "slug": "kxmvecrosscategory-s2026aj6veahf355flk3m-e6ueyqems",
+        "question": "yes De'Aaron Fox: 4+,yes Stephon Castle: 4+,yes San Antonio,yes Domantas Sabonis: 15+,yes Zach LaVine: 20+,yes Dylan Harper: 15+,yes Stephon Castle: 15+,yes Victor Wembanyama: 12+",
+        "outcomes": [
+          "YES (UP)",
+          "NO (DOWN)"
+        ],
+        "up_ask": 0.52,
+        "down_ask": 0.49,
+        "up_bid": 0.0,
+        "pair_sum": 1.01,
+        "volume": 0.0,
+        "liquidity": 0.0
+      },
+      {
+        "venue": "KALSHI",
+        "id": "KXMVECROSSCATEGORY-S2026AVVNIAW6T6VINVEQ-UVTG4ZVXU",
+        "slug": "kxmvecrosscategory-s2026avvniaw6t6vinveq-uvtg4zvxu",
+        "question": "yes Karl-Anthony Towns,yes Jalen Brunson: 30+,yes New York wins by over 5.5 points",
+        "outcomes": [
+          "YES (UP)",
+          "NO (DOWN)"
+        ],
+        "up_ask": 0.52,
+        "down_ask": 0.49,
+        "up_bid": 0.0,
+        "pair_sum": 1.01,
+        "volume": 0.0,
+        "liquidity": 0.0
+      },
+      {
+        "venue": "KALSHI",
+        "id": "KXMVECROSSCATEGORY-S2026EAW5RXL6SSQQD6TB-ALC3Z4RK7",
+        "slug": "kxmvecrosscategory-s2026eaw5rxl6ssqqd6tb-alc3z4rk7",
+        "question": "yes Michael Geerts,yes Liam Broady,yes Filip Peliwo,yes Tom Paris,yes Tristan Schoolkate,yes Andrey Rublev,yes Burdet / Car,yes Abdullaev / Kvasov,yes Djonov / Tepmahc,yes Rejchtman Vinciguerra / Samuelsson,yes De Carvalho / van Wyk,yes Funk / Maute,yes Hammes / Sanchez Martinez,yes James Beaven,yes Lorenzo Bocchi,yes Miles Jones,yes Simone Massellani,yes Ryotaro Taguchi,yes Daniil Varaksa,yes Leonardo Rossi,yes Liam Hignett,yes Shkutova / Struvay,yes Noemi Maines,yes Isabella Angelina Abendroth,yes Laura Hietaranta,yes Matilde Jorge,yes Viktoria Hruncakova,yes Iida Heinonen,yes Milena Maria Ciocan,yes Elizara Yaneva,yes Marina Bassols Ribera,yes Xinran Sun",
+        "outcomes": [
+          "YES (UP)",
+          "NO (DOWN)"
+        ],
+        "up_ask": 0.52,
+        "down_ask": 0.49,
+        "up_bid": 0.0,
+        "pair_sum": 1.01,
+        "volume": 0.0,
+        "liquidity": 0.0
+      },
+      {
+        "venue": "KALSHI",
+        "id": "KXMVECROSSCATEGORY-S2026BPNUPLIELZFWVVXT-3IR62CFR5",
+        "slug": "kxmvecrosscategory-s2026bpnuplielzfwvvxt-3ir62cfr5",
+        "question": "yes Deni Avdija: 20+,yes Donovan Clingan: 10+,yes Damian Lillard: 25+,yes Ja Morant: 10+",
+        "outcomes": [
+          "YES (UP)",
+          "NO (DOWN)"
+        ],
+        "up_ask": 0.52,
+        "down_ask": 0.49,
+        "up_bid": 0.0,
+        "pair_sum": 1.01,
+        "volume": 0.0,
+        "liquidity": 0.0
+      },
+      {
+        "venue": "KALSHI",
+        "id": "KXMVECROSSCATEGORY-S20264REI2OUV2TCPXVPP-GWPIY76GV",
+        "slug": "kxmvecrosscategory-s20264rei2ouv2tcpxvpp-gwpiy76gv",
+        "question": "no Esteghlal,no Bremen,no Gro\u00dfaspach,yes Leipzig,no Darmstadt,yes Arsenal,no Peterborough wins by more than 1.5 goals,yes Over 0.5 goals scored,yes Over 1.5 goals scored,no Over 5.5 goals scored,no Torino wins the 1H by more than 1.5 goals,yes Over 0.5 1H goals scored,yes Over 0.5 1H goals scored,yes Both Teams To Score,no Torino,no Cagliari wins by more than 1.5 goals,no Sassuolo wins by more than 1.5 goals,yes Over 1.5 goals scored,yes Over 1.5 goals scored",
+        "outcomes": [
+          "YES (UP)",
+          "NO (DOWN)"
+        ],
+        "up_ask": 0.52,
+        "down_ask": 0.49,
+        "up_bid": 0.0,
+        "pair_sum": 1.01,
+        "volume": 0.0,
+        "liquidity": 0.0
+      }
+    ]
+  }
+}
